@@ -78,3 +78,4 @@ echo "Temp/" >> .gitignore
 echo "Logs/" >> .gitignore
 echo "Packages/" >> .gitignore
 echo "!Packages/com.ptc.vuforia.engine-10.8.4.tgz" >> .gitignore  # 允许上传这个文件
+\!Packages/com.ptc.vuforia.engine-10.8.4.tgz
