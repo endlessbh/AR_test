@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XCSJ.PluginTools</name>
+    </assembly>
+    <members>
+        <member name="T:XCSJ.PluginTools.Kernel.ToolsHandler">
+            <summary>
+            工具处理器
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginTools.Kernel.ToolsHandler.handler">
+            <summary>
+            工具处理器对象
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginTools.Kernel.ToolsHandler.GetScripts(XCSJ.PluginTools.ToolsManager)">
+            <summary>
+            获取脚本列表
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginTools.Kernel.ToolsHandler.RunScript(XCSJ.PluginTools.ToolsManager,System.Int32,XCSJ.Scripts.ScriptParamList)">
+            <summary>
+            执行脚本
+            </summary>
+            <param name="manager"></param>
+            <param name="id"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="T:XCSJ.PluginTools.Kernel.IToolsHandler">
+            <summary>
+            工具处理器接口
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginTools.ToolMB">
+            <summary>
+            抽象工具基类
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginTools.ToolsManager">
+            <summary>
+            工具库
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginTools.ToolsManager.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginTools.ToolsManager.GetScripts">
+            <summary>
+            获取脚本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginTools.ToolsManager.ExecuteScript(System.Int32,XCSJ.Scripts.ScriptParamList)">
+            <summary>
+            运行脚本
+            </summary>
+            <param name="id"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginTools.ToolsManager.OnEnable">
+            <summary>
+            启用：绑定选择事件
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginTools.ToolsManager.OnDisable">
+            <summary>
+            启用：解除选择事件绑定
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginTools.ToolsManager.Update">
+            <summary>
+            更新
+            </summary>
+        </member>
+        <member name="E:XCSJ.PluginTools.ToolsManager.onTransformHasChanged">
+            <summary>
+            变换回调事件
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginTools.ToolsManager.AddTransfromListener(UnityEngine.GameObject[])">
+            <summary>
+            注册变换数据修改观察
+            </summary>
+            <param name="gameObjects"></param>
+        </member>
+        <member name="M:XCSJ.PluginTools.ToolsManager.RemoveTransfromListener(UnityEngine.GameObject[])">
+            <summary>
+            注销变换数据修改观察
+            </summary>
+            <param name="gameObjects"></param>
+        </member>
+        <member name="T:XCSJ.PluginTools.IDRange">
+            <summary>
+            ID区间
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginTools.IDRange.Begin">
+            <summary>
+            开始ID
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginTools.IDRange.End">
+            <summary>
+            结束ID
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginTools.IDRange.Fragment">
+            <summary>
+            片段
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginTools.IDRange.Common">
+            <summary>
+            通用
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginTools.IDRange.MonoBehaviour">
+            <summary>
+            Mono脚本ID
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginTools.IDRange.StateLib">
+            <summary>
+            状态库ID
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginTools.IDRange.Tools">
+            <summary>
+            工具ID
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginTools.IDRange.Editor">
+            <summary>
+            编辑器ID
+            </summary>
+        </member>
+    </members>
+</doc>

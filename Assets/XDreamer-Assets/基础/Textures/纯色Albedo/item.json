@@ -1,0 +1,129 @@
+﻿
+[
+    {
+        "tags" : [
+            "样品淡紫色漫反射"
+        ],
+        "source" : "",
+        "guid"   : "a52d6421c88a70c4aa8aae09ac148acb",
+        "name"   : "SwatchMauveAlbedo",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "样品深蓝色漫反射"
+        ],
+        "source" : "",
+        "guid"   : "234f7f0577eb9c94ca471520b5d6be05",
+        "name"   : "SwatchNavyAlbedo",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "样品蓝黑色漫反射"
+        ],
+        "source" : "",
+        "guid"   : "68f67fa0fcd7026438e27d55139ea953",
+        "name"   : "SwatchNavyDarkAlbedo",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "样品橙色漫反射"
+        ],
+        "source" : "",
+        "guid"   : "bbc54d7b3f5ed694187c7a002b4dbfe7",
+        "name"   : "SwatchOrangeAlbedo",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "样品粉色漫反射"
+        ],
+        "source" : "",
+        "guid"   : "5e74dba4fe7d8f3469fd52828cb1f76c",
+        "name"   : "SwatchPinkAlbedo",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "样品青色漫反射"
+        ],
+        "source" : "",
+        "guid"   : "cbc69719d6aad9248a9a7508f2a6d12d",
+        "name"   : "SwatchTealAlbedo",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "样品青绿色漫反射"
+        ],
+        "source" : "",
+        "guid"   : "8cf83c75878a1e2449730fc6233062b0",
+        "name"   : "SwatchTurquoiseAlbedo",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "样品白色漫反射"
+        ],
+        "source" : "",
+        "guid"   : "5c2b16cf7982bb74c8d0c217c353b2b8",
+        "name"   : "SwatchWhiteAlbedo",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "样品黄色漫反射"
+        ],
+        "source" : "",
+        "guid"   : "706724170004c7d45b681ec19cab8449",
+        "name"   : "SwatchYellowAlbedo",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

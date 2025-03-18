@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XCSJ.EditorDataBase</name>
+    </assembly>
+    <members>
+        <member name="T:XCSJ.EditorDataBase.EditorDBHelper">
+            <summary>
+            编辑器数据组手
+            </summary>
+        </member>
+    </members>
+</doc>

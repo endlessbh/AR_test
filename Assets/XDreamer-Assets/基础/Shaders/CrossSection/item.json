@@ -1,0 +1,31 @@
+﻿
+[
+    {
+        "tags" : [
+            "通用三平面"
+        ],
+        "source" : "",
+        "guid"   : "8182489bbcdbe2d49934ea05c01bb203",
+        "name"   : "XDreamer/CrossSection/GenericThreePlanesBSP",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "剖面模板"
+        ],
+        "source" : "",
+        "guid"   : "88b9999b87b4fd146a176b8e5bccc481",
+        "name"   : "XDreamer/CrossSection/StencilledUnlitTexture",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

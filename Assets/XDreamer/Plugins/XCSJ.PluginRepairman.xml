@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XCSJ.PluginRepairman</name>
+    </assembly>
+    <members>
+        <member name="T:XCSJ.PluginRepairman.Kernel.RepairmanHandler">
+            <summary>
+            拆装处理器
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Kernel.RepairmanHandler.handler">
+            <summary>
+            拆装处理器对象
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Kernel.RepairmanHandler.GetScripts(XCSJ.PluginRepairman.RepairmanManager)">
+            <summary>
+            获取脚本列表
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Kernel.RepairmanHandler.RunScript(XCSJ.PluginRepairman.RepairmanManager,System.Int32,XCSJ.Scripts.ScriptParamList)">
+            <summary>
+            执行脚本
+            </summary>
+            <param name="manager"></param>
+            <param name="id"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Kernel.IRepairmanHandler">
+            <summary>
+            拆装处理器接口
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.RepairmanHelper">
+            <summary>
+            通用
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.RepairmanHelper.PluginName">
+            <summary>
+            插件名称
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.IDRange">
+            <summary>
+            ID范围
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.IDRange.Begin">
+            <summary>
+            起始1077248
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.IDRange.End">
+            <summary>
+            结束1081343
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.IDRange.Fragment">
+            <summary>
+            片段
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.IDRange.Common">
+            <summary>
+            通用
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.IDRange.MonoBehaviour">
+            <summary>
+            MonoBehaviour
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.IDRange.StateLib">
+            <summary>
+            状态库
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.IDRange.Tools">
+            <summary>
+            工具
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.IDRange.Editor">
+            <summary>
+            编辑器
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Machines.IBaseInfo">
+            <summary>
+            基础信息
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.IBaseInfo.showName">
+            <summary>
+            显示名
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.IBaseInfo.description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Machines.IItem">
+            <summary>
+            物品接口
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.IItem.gameObject">
+            <summary>
+            游戏对象
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.IItem.texture2D">
+            <summary>
+            纹理
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.IItem.selected">
+            <summary>
+            表示是否被选择
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Machines.Item">
+            <summary>
+            物品
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.Machines.Item._description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.Machines.Item.go">
+            <summary>
+            关联模型
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.transform">
+            <summary>
+            关联变换
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.Machines.Item.childrenTransform">
+            <summary>
+            子对象
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.Machines.Item.icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.showName">
+            <summary>
+            显示名
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.gameObject">
+            <summary>
+            游戏对象
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.texture2D">
+            <summary>
+            纹理
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.selected">
+            <summary>
+            是否被选择
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Machines.Item.Init(XCSJ.PluginSMS.Kernel.StateData)">
+            <summary>
+            初始化
+            </summary>
+            <param name="stateData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Machines.Item.FindGameObject">
+            <summary>
+            查找游戏对象
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Machines.Item.DataValidity">
+            <summary>
+            数据有效性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.parentItem">
+            <summary>
+            父级项
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Machines.Item.GetParentItem">
+            <summary>
+            返回父物品
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Machines.Item.GetChildrenItems">
+            <summary>
+            返回子物品
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.display">
+            <summary>
+            显示
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.visible">
+            <summary>
+            可视的
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.depth">
+            <summary>
+            深度
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.expanded">
+            <summary>
+            展开
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.displayName">
+            <summary>
+            显示名
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.children">
+            <summary>
+            成员
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Machines.Item.OnClick">
+            <summary>
+            当点击
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.Item.nodeType">
+            <summary>
+            节点类型
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Machines.ITool">
+            <summary>
+            工具接口
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Machines.ToolSelection">
+            <summary>
+            工具选择集
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Machines.ToolSelection.ContainAll(System.Collections.Generic.IEnumerable{XCSJ.PluginRepairman.Machines.ITool})">
+            <summary>
+            包含所有
+            </summary>
+            <param name="tools"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Machines.ToolSelection.ContainAny(System.Collections.Generic.IEnumerable{XCSJ.PluginRepairman.Machines.ITool})">
+            <summary>
+            包含其中之一
+            </summary>
+            <param name="tools"></param>
+            <returns></returns>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Machines.ToolSelection.selectionMaxCount">
+            <summary>
+            选择集最大数目
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Machines.ToolSelection.AddTool(XCSJ.PluginRepairman.Machines.ITool)">
+            <summary>
+            添加工具
+            </summary>
+            <param name="tool"></param>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.RepairmanManager">
+            <summary>
+            拆装修理管理器
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.RepairmanManager.GetScripts">
+            <summary>
+            获取脚本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.RepairmanManager.ExecuteScript(System.Int32,XCSJ.Scripts.ScriptParamList)">
+            <summary>
+            运行脚本
+            </summary>
+            <param name="id"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Tasks.ETaskState">
+            <summary>
+            任务状态
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.Tasks.ETaskState.UnFinish">
+            <summary>
+            未完成
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.Tasks.ETaskState.Active">
+            <summary>
+            活跃
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.Tasks.ETaskState.Finish">
+            <summary>
+            完成
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Tasks.ICondition">
+            <summary>
+            条件接口
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Tasks.ICondition.Check">
+            <summary>
+            检查
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Tasks.ITask">
+            <summary>
+            任务接口
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Tasks.ITask.taskState">
+            <summary>
+            任务状态
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Tasks.ITask.Help">
+            <summary>
+            帮助
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Tasks.ITask.Skip">
+            <summary>
+            跳过
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Tasks.ITaskList">
+            <summary>
+            任务列表
+            </summary>
+        </member>
+        <member name="P:XCSJ.PluginRepairman.Tasks.ITaskList.tasks">
+            <summary>
+            任务
+            </summary>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Utils.GameObjectUtils">
+            <summary>
+            游戏对象工具集
+            </summary>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.CreateChildGameObject``1(System.String,UnityEngine.GameObject)">
+            <summary>
+            创建子级游戏对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="name"></param>
+            <param name="parent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.GetFirstComponentUpward``1(UnityEngine.GameObject)">
+            <summary>
+            向上查找父对象，第一个T类型的组件
+            </summary>
+            <typeparam name="T">组件类型</typeparam>
+            <param name="inObject">子对象</param>
+            <returns>父对象组件T</returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.GetBounds(UnityEngine.GameObject)">
+            <summary>
+            获取包围盒
+            </summary>
+            <param name="go"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.CloneGameObject(UnityEngine.GameObject)">
+            <summary>
+            克隆游戏对象
+            </summary>
+            <param name="src"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.CloneGameObject``1(UnityEngine.GameObject)">
+            <summary>
+            克隆游戏对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="src"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.FindObjectOfType``1(System.Predicate{``0})">
+            <summary>
+            查找指定类型的对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="match"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.FindObjectsOfType``1(System.Predicate{``0})">
+            <summary>
+            查找指定类型的对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="match"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.FindComponentsInChildren``1(UnityEngine.GameObject,System.Boolean,System.Boolean)">
+            <summary>
+            在子级中查找组件
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="root"></param>
+            <param name="includeRoot"></param>
+            <param name="includeInactive"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.FindComponentsInNextLayerChildren``1(UnityEngine.GameObject)">
+            <summary>
+            在下一层级中查找组件
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="root"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.PluginRepairman.Utils.GameObjectUtils.GetComponentInParent``1(UnityEngine.Transform,``0@)">
+            <summary>
+            在父级中查找组件
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="trans"></param>
+            <param name="component"></param>
+        </member>
+        <member name="T:XCSJ.PluginRepairman.Utils.RenderTextureInfo">
+            <summary>
+            自动渲染贴图
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.Utils.RenderTextureInfo.angle">
+            <summary>
+            截图角度
+            </summary>
+        </member>
+        <member name="F:XCSJ.PluginRepairman.Utils.RenderTextureInfo.distanceScaleValue">
+            <summary>
+            距离缩放倍数
+            </summary>
+        </member>
+    </members>
+</doc>

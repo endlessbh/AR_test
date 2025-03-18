@@ -1,0 +1,72 @@
+﻿
+[
+    {
+        "tags" : [
+            "颜色混合"
+        ],
+        "source" : "",
+        "guid"   : "afe53a267b400ed41a6f4373d4f8e2a8",
+        "name"   : "XDreamer/Colored Blended",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "b943a68036083894ca074d05aa743774",
+        "name"   : "XDreamer/Control",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            " 标准透明切割"
+        ],
+        "source" : "",
+        "guid"   : "5fd5feb333d8c8c478dde60f5f6b5617",
+        "name"   : "XDreamer/Standard Transparent with Cut",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "标准三切面切割"
+        ],
+        "source" : "",
+        "guid"   : "8f01fb65292461943a43cac418ec9108",
+        "name"   : "XDreamer/Standard Triplanar with Cut",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "双面渲染"
+        ],
+        "source" : "",
+        "guid"   : "d977badb8d897414181f5093d079766c",
+        "name"   : "XDreamer/StandardDoubleFace",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

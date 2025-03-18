@@ -1,0 +1,116 @@
+﻿
+[
+    {
+        "tags" : [
+            "弹性"
+        ],
+        "source" : "",
+        "guid"   : "9f93f63d068b08c459038c40fce897d8",
+        "name"   : "Bouncy",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "光滑",
+            "无摩擦"
+        ],
+        "source" : "",
+        "guid"   : "176724f165ed631408775764c436d474",
+        "name"   : "Frictionless",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "冰"
+        ],
+        "source" : "",
+        "guid"   : "ba92fb44336020f40bdf294bb66bc9da",
+        "name"   : "Ice",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "最大摩擦"
+        ],
+        "source" : "",
+        "guid"   : "e52fb17f9b1e7fd48b8955f1391d3688",
+        "name"   : "MaxFriction",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金属"
+        ],
+        "source" : "",
+        "guid"   : "01571ba68fb2dad46aa03094ab219579",
+        "name"   : "Metal",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橡胶"
+        ],
+        "source" : "",
+        "guid"   : "52baaeb214519f347a35cf0edfd262ff",
+        "name"   : "Rubber",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "木头"
+        ],
+        "source" : "",
+        "guid"   : "3aeb7dadc0c69d54d9e5777e9d5631f1",
+        "name"   : "Wood",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "零摩擦"
+        ],
+        "source" : "",
+        "guid"   : "c2815a7ab32e42c4bb42f59caacb8ec1",
+        "name"   : "ZeroFriction",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

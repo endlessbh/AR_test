@@ -1,0 +1,389 @@
+﻿
+[
+    {
+        "tags" : [
+            "黑色"
+        ],
+        "source" : "",
+        "guid"   : "fb3298682be090e41ae9e5927a3fa4c3",
+        "name"   : "Black",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "青色"
+        ],
+        "source" : "",
+        "guid"   : "37049d802ff6d71458cf459302b840f5",
+        "name"   : "Teal",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "棕褐色"
+        ],
+        "source" : "",
+        "guid"   : "bbf9ad9177018f74b97e15d7372fce60",
+        "name"   : "Tan",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "银色"
+        ],
+        "source" : "",
+        "guid"   : "87b6f6764b9a74e48957bfb5fb06c39e",
+        "name"   : "Silver",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "红色"
+        ],
+        "source" : "",
+        "guid"   : "d7378610179a65547b3230643ce751c9",
+        "name"   : "Red",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "紫色"
+        ],
+        "source" : "",
+        "guid"   : "e86cc26625740054ea10fa2ba18e866a",
+        "name"   : "Purple",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "粉色"
+        ],
+        "source" : "",
+        "guid"   : "980be0aef99781741b217c7179438312",
+        "name"   : "Pink",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橙色"
+        ],
+        "source" : "",
+        "guid"   : "a5e4ba69fbe2e3a4d8a5e54b1a5d872b",
+        "name"   : "Orange",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : false,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "橄榄绿"
+        ],
+        "source" : "",
+        "guid"   : "b3701fd073eacf3418e4679f795a93e9",
+        "name"   : "Olive",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "海军蓝"
+        ],
+        "source" : "",
+        "guid"   : "7f83cf5c20702344e88dbf968bf6d76b",
+        "name"   : "Navy",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "褐红色"
+        ],
+        "source" : "",
+        "guid"   : "45796bd42a479414b8350d4c63aacf20",
+        "name"   : "Maroon",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "洋红色"
+        ],
+        "source" : "",
+        "guid"   : "3b1a49853fa800f4e8750af70e3e6b04",
+        "name"   : "Magenta",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "d03cf90c71cc197499e528f6ab4a2d83",
+        "name"   : "Logo黄",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "5d7a34564e4b04a4284e3d622889d288",
+        "name"   : "Logo蓝",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "116a084d972271f4bbd570552811a24c",
+        "name"   : "Logo绿",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "2dd4b32e73d2b2d4b936b1679a1a475e",
+        "name"   : "Logo红",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "f3c6ab5f4607dac4da0833dbfd67cc2a",
+        "name"   : "Logo白",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "b52e438f1d8c7544aa55b36f4c4a765e",
+        "name"   : "Light Grey",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黄色"
+        ],
+        "source" : "",
+        "guid"   : "411bb54b3915ad54da9626bf2d9f567d",
+        "name"   : "Grey",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "绿色"
+        ],
+        "source" : "",
+        "guid"   : "54675a0f84f2dd7419f25f163638ac70",
+        "name"   : "Green",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "草绿色"
+        ],
+        "source" : "",
+        "guid"   : "41517ebea3d470e49849da187c221121",
+        "name"   : "Grass",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "金色"
+        ],
+        "source" : "",
+        "guid"   : "767496e99b03b4841918c3e8b9704fcc",
+        "name"   : "Gold",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "土色"
+        ],
+        "source" : "",
+        "guid"   : "f5ea8bb1a5b9d7a40afedffbfdc74126",
+        "name"   : "Dirt",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "深黑色"
+        ],
+        "source" : "",
+        "guid"   : "4c8c44b7995594640a01ad79d18b3eab",
+        "name"   : "Dark Grey",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "青色"
+        ],
+        "source" : "",
+        "guid"   : "86b6f4440b1f58a4bba7b68155fefdf5",
+        "name"   : "Cyan",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "蓝色"
+        ],
+        "source" : "",
+        "guid"   : "b5f6f2955e1d5dd47bd8a0bcb42bbd83",
+        "name"   : "Blue",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "白色"
+        ],
+        "source" : "",
+        "guid"   : "8f4d7c4403f05a54faf198c8a40287d5",
+        "name"   : "White",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黄色"
+        ],
+        "source" : "",
+        "guid"   : "244a720853847d44a8e33b92fcd19e0a",
+        "name"   : "Yellow",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

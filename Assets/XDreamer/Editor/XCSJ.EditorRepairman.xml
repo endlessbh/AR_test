@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XCSJ.EditorRepairman</name>
+    </assembly>
+    <members>
+        <member name="T:XCSJ.EditorRepairman.Inspectors.RepairmanManagerInspector">
+            <summary>
+            拆装检查器
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorRepairman.Inspectors.RepairmanManagerInspector.categoryList">
+            <summary>
+            分类列表
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorRepairman.Inspectors.RepairmanManagerInspector.OnEnable">
+            <summary>
+            启用
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorRepairman.Inspectors.RepairmanManagerInspector.OnInspectorGUI">
+            <summary>
+            当绘制检查器GUI
+            </summary>
+        </member>
+        <member name="T:XCSJ.EditorRepairman.Inspectors.ItemInspector">
+            <summary>
+            项检查器
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorRepairman.Inspectors.ItemInspector.autoFindGameObject">
+            <summary>
+            自动关联同名游戏对象
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorRepairman.Inspectors.ItemInspector.OnDrawMember(UnityEditor.SerializedProperty,XCSJ.EditorCommonUtils.PropertyData)">
+            <summary>
+            当绘制成员
+            </summary>
+            <param name="serializedProperty"></param>
+            <param name="propertyData"></param>
+        </member>
+    </members>
+</doc>

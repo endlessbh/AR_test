@@ -1,0 +1,6 @@
+<linker>
+  <!--
+  保留XCSJ.dll文件程序集中所有的类型
+  -->
+  <assembly fullname="XCSJ" preserve="all" />
+</linker>

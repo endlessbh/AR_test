@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XCSJ.EditorTools</name>
+    </assembly>
+    <members>
+        <member name="T:XCSJ.EditorTools.ComponentToolItem">
+            <summary>
+            组件工具项
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ComponentToolItem.type">
+            <summary>
+            类型信息
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.ComponentToolItem._itemClick">
+            <summary>
+            组件类型关联的点击类
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ComponentToolItem.#ctor(XCSJ.Attributes.IndexAttribute,System.Type)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="indexAttribute"></param>
+            <param name="type"></param>
+        </member>
+        <member name="M:XCSJ.EditorTools.ComponentToolItem.CanClick">
+            <summary>
+            能否点击
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.EditorTools.ComponentToolItem.OnClick">
+            <summary>
+            点击
+            </summary>
+        </member>
+        <member name="T:XCSJ.EditorTools.StaticMethodToolItem">
+            <summary>
+            静态函数工具项
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.StaticMethodToolItem.contextArray">
+            <summary>
+            内容参数数组
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.StaticMethodToolItem.context">
+            <summary>
+            工具内容
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.StaticMethodToolItem.methodInfo">
+            <summary>
+            方法
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.StaticMethodToolItem.parameterCount">
+            <summary>
+            参数个数
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.StaticMethodToolItem.#ctor(XCSJ.Attributes.IndexAttribute,System.Reflection.MethodInfo)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="indexAttribute"></param>
+            <param name="methodInfo"></param>
+        </member>
+        <member name="M:XCSJ.EditorTools.StaticMethodToolItem.CanClick">
+            <summary>
+            能否点击
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.EditorTools.StaticMethodToolItem.OnClick">
+            <summary>
+            创建工具
+            </summary>
+        </member>
+        <member name="T:XCSJ.EditorTools.ToolContext">
+            <summary>
+            工具内容
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolContext.Get(System.Type,System.String)">
+            <summary>
+            获取工具内容对象
+            </summary>
+            <param name="type"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolContext.toolName">
+            <summary>
+            工具名称
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolContext.toolFuncType">
+            <summary>
+            函数类工具项类型
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolContext.toolAttribute">
+            <summary>
+            工具特性
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolContext.memberInfo">
+            <summary>
+            工具特性修饰对象
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolContext.toolItem">
+            <summary>
+            工具项对象
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolContext.#ctor(XCSJ.EditorTools.ToolItem)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="toolItem"></param>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolContext.op_Implicit(XCSJ.EditorTools.ToolContext)~XCSJ.EditorTools.ToolItem">
+            <summary>
+            隐式转成工具项
+            </summary>
+            <param name="toolContext"></param>
+        </member>
+        <member name="T:XCSJ.EditorTools.EToolFuncType">
+            <summary>
+            工具函数类型
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.EToolFuncType.CanClick">
+            <summary>
+            工具项是否能点击
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.EToolFuncType.OnClick">
+            <summary>
+            工具项点击函数
+            </summary>
+        </member>
+        <member name="T:XCSJ.EditorTools.ToolEditorWindow">
+            <summary>
+            工具包窗口
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolEditorWindow.OnLostFocus">
+            <summary>
+            失去焦点
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolEditorWindow.GetCategoryList">
+            <summary>
+            获取分类列表数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolEditorWindow.OnGUI">
+            <summary>
+            GUI绘制
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolEditorWindow.OnOptionModified(XCSJ.Tools.Option)">
+            <summary>
+            配置修改回调
+            </summary>
+            <param name="option"></param>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolEditorWindow.OnLanguageCacheChanged">
+            <summary>
+            当语言缓存变更后回调
+            </summary>
+        </member>
+        <member name="T:XCSJ.EditorTools.ToolEditorWindowOption">
+            <summary>
+            工具库配置项
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolEditorWindowOption.newVersion">
+            <summary>
+            版本
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.ToolEditorWindowOption._displayToolType">
+            <summary>
+            显示工具类型
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.ToolEditorWindowOption._toolItemSortRule">
+            <summary>
+            工具项排序规则:由于工具库中游戏对象比较易用，因此默认采用游戏对象优先、然后索引，再然后名称的排序规则
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.ToolEditorWindowOption.defaultButtonSize">
+            <summary>
+            按钮默认
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolEditorWindowOption.defaultButtonSizeOption">
+            <summary>
+            缺省按钮尺寸
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.ToolEditorWindowOption.toolButtonSize">
+            <summary>
+            工具按钮尺寸
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolEditorWindowOption.toolButtonSizeOption">
+            <summary>
+            工具按钮尺寸
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.ToolEditorWindowOption.contentButtonSize">
+            <summary>
+            内容按钮尺寸
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolEditorWindowOption.contentButtonSizeOption">
+            <summary>
+            内容按钮尺寸
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.ToolEditorWindowOption.prefabsRootPath">
+            <summary>
+            预置体
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolEditorWindowOption.OnVersionChanged(System.Int32)">
+            <summary>
+            版本变化
+            </summary>
+            <param name="lastVersion"></param>
+        </member>
+        <member name="T:XCSJ.EditorTools.EDisplayToolType">
+            <summary>
+            显示工具规则
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.EDisplayToolType.GameObject">
+            <summary>
+            游戏对象
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.EDisplayToolType.Component">
+            <summary>
+            组件
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.EDisplayToolType.All">
+            <summary>
+            全部
+            </summary>
+        </member>
+        <member name="T:XCSJ.EditorTools.ToolItem">
+            <summary>
+            抽象工具项
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.ToolItem.toolAttribute">
+            <summary>
+            工具特性
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolItem.#ctor(XCSJ.Attributes.IndexAttribute,System.Reflection.MemberInfo)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolItem.OnBeforeDrawItem(UnityEngine.Rect)">
+            <summary>
+            绘制项前渲染
+            </summary>
+            <param name="rect"></param>
+        </member>
+        <member name="F:XCSJ.EditorTools.ToolItem.lastKeyIconClickItem">
+            <summary>
+            上一次关键图标点击项
+            </summary>
+        </member>
+        <member name="E:XCSJ.EditorTools.ToolItem.onKeyIconClick">
+            <summary>
+            全局关键图标单击回调
+            </summary>
+        </member>
+        <member name="E:XCSJ.EditorTools.ToolItem.onKeyIconDoubleClick">
+            <summary>
+            全局关键图标双击回调
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolItem.OnKeyIconClick">
+            <summary>
+            关键图标点击回调
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolItem.OnKeyIconDoubleClick">
+            <summary>
+            关键图标双击回调
+            </summary>
+        </member>
+        <member name="T:XCSJ.EditorTools.ToolItemClickAttribute">
+            <summary>
+            工具项点击类型特性
+            用于修饰实现点击接口类型的类
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolItemClickAttribute.#ctor(System.Type,System.Boolean)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="type"></param>
+            <param name="editorForChildClasses"></param>
+        </member>
+        <member name="T:XCSJ.EditorTools.EditorToolsHelper">
+            <summary>
+            工具助手
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.EditorToolsHelper.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.EditorToolsHelper.componentList">
+            <summary>
+            组件对象列表
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.EditorToolsHelper.gameObjectList">
+            <summary>
+            游戏对象列表
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.EditorToolsHelper.Reload">
+            <summary>
+            重新加载
+            </summary>
+        </member>
+        <member name="P:XCSJ.EditorTools.EditorToolsHelper.defaultCategoryList">
+            <summary>
+            缺省分类列表
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.EditorToolsHelper.ToolItemComparison(XCSJ.EditorCommonUtils.Base.CategoryViews.BaseItem,XCSJ.EditorCommonUtils.Base.CategoryViews.BaseItem)">
+            <summary>
+            工具项排序方法
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="T:XCSJ.EditorTools.EditorToolsHelper.EToolItemSortRule">
+            <summary>
+            工具项排序规则
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.EditorToolsHelper.EToolItemSortRule.Index_Name">
+            <summary>
+            先按索引排序，然后按名称
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.EditorToolsHelper.EToolItemSortRule.GameObject_Index_Name">
+            <summary>
+            先按游戏对象类型（静态方法）排序，然后按索引，再然后按名称
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.EditorToolsHelper.EToolItemSortRule.Component_Index_Name">
+            <summary>
+            先按组件类型排序，然后按索引，再然后按名称
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.EditorToolsHelper.CreateToolCategoryList">
+            <summary>
+            创建工具分类列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.EditorTools.EditorToolsHelper.GetWithPurposes(System.String[])">
+            <summary>
+            通过目的获取分类列表对象 ： 使用克隆方式
+            </summary>
+            <param name="purposes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.EditorTools.EditorToolsHelper.GetWithPurposes(System.Func{XCSJ.EditorCommonUtils.Base.CategoryViews.Category,XCSJ.EditorCommonUtils.Base.CategoryViews.BaseItem,System.Boolean},System.String[])">
+            <summary>
+            克隆符合传入判断条件委托和分类用途匹配的分类项列表
+            </summary>
+            <param name="contain"></param>
+            <param name="purposes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.EditorTools.EditorToolsHelper.GetWithCategoryNames(System.String[])">
+            <summary>
+            通过分类名获取分类列表对象 ： 使用克隆方式
+            </summary>
+            <param name="names"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XCSJ.EditorTools.EditorToolsHelper.GetWithCategoryNames(System.Func{XCSJ.EditorCommonUtils.Base.CategoryViews.Category,XCSJ.EditorCommonUtils.Base.CategoryViews.BaseItem,System.Boolean},System.String[])">
+            <summary>
+            克隆符合传入判断条件委托和分类名称匹配的分类项列表
+            </summary>
+            <param name="contain"></param>
+            <param name="names"></param>
+            <returns></returns>
+        </member>
+        <member name="T:XCSJ.EditorTools.ToolsManagerInspector">
+            <summary>
+            工具库检查器
+            </summary>
+        </member>
+        <member name="F:XCSJ.EditorTools.ToolsManagerInspector.openToolEditorWindow">
+            <summary>
+            打开工具库
+            </summary>
+        </member>
+        <member name="E:XCSJ.EditorTools.ToolsManagerInspector.onAfterToolsManagerOnInspectorGUI">
+            <summary>
+            工具库检查器绘制后回调函数
+            </summary>
+        </member>
+        <member name="M:XCSJ.EditorTools.ToolsManagerInspector.OnInspectorGUI">
+            <summary>
+            垂直绘制
+            </summary>
+        </member>
+    </members>
+</doc>

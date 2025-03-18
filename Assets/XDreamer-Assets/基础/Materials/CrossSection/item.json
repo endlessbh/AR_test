@@ -1,0 +1,43 @@
+﻿
+[
+    {
+        "tags" : [
+            "三剖面通用材质"
+        ],
+        "source" : "",
+        "guid"   : "37af7749ceb2ab744a80a039626cdb37",
+        "name"   : "GenericThreePlanesBSP",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "3247b8228ce97f74a8c07819a65a8a76",
+        "name"   : "剖面材质",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+        ],
+        "source" : "",
+        "guid"   : "a7699a9b21b311e479fb32f061fd4aa3",
+        "name"   : "银色材质",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

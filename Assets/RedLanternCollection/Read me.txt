@@ -1,0 +1,6 @@
+Model is pack in unity5.6.1f1 
+
+go to  "RedLanternCollection/Prefabs"  folder find prefab. 
+
+about the bloom effect , please download "PostProcessing"  free from AssetStore ,only check the "Bloom" option in the Post-Processing Profile file;
+

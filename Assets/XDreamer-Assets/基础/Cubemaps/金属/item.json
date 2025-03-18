@@ -1,0 +1,45 @@
+﻿
+[
+    {
+        "tags" : [
+            "银色"
+        ],
+        "source" : "",
+        "guid"   : "bd4d2c0daf21e9a4bb624235684d16a2",
+        "name"   : "金属2",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "暗银色"
+        ],
+        "source" : "",
+        "guid"   : "280a581c55818f647864cac4a2af4a07",
+        "name"   : "金属3",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "黑"
+        ],
+        "source" : "",
+        "guid"   : "f1a9ff7bc6117d2418f409b0d383b1fb",
+        "name"   : "金属4",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

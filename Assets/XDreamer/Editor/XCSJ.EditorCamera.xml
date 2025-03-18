@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XCSJ.EditorCamera</name>
+    </assembly>
+    <members>
+        <member name="T:XCSJ.EditorCamera.EditorCameraHelper">
+            <summary>
+            编辑器相机组手类
+            </summary>
+        </member>
+    </members>
+</doc>

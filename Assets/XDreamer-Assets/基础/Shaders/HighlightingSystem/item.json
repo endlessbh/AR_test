@@ -1,0 +1,73 @@
+﻿
+[
+    {
+        "tags" : [
+            "高亮特效"
+        ],
+        "source" : "",
+        "guid"   : "3070218404d1de94c9d081d248597046",
+        "name"   : "XDreamer/Highlighted/Blur",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "高亮混合"
+        ],
+        "source" : "",
+        "guid"   : "b0bd9de6a4f20954f9704e56568224a6",
+        "name"   : "XDreamer/Highlighted/Composite",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "高亮裁切"
+        ],
+        "source" : "",
+        "guid"   : "376af14ed82e64793b326012b8591fa9",
+        "name"   : "XDreamer/Highlighted/Cut",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "高亮不透明"
+        ],
+        "source" : "",
+        "guid"   : "ce3b12ca636563c48afb814d9aeb5b90",
+        "name"   : "XDreamer/Highlighted/Opaque",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "高亮透明"
+        ],
+        "source" : "",
+        "guid"   : "9fc04a058c8768648a6532aa07540ca5",
+        "name"   : "XDreamer/Highlighted/Transparent",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]

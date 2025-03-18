@@ -1,0 +1,31 @@
+﻿
+[
+    {
+        "tags" : [
+            "黑色"
+        ],
+        "source" : "",
+        "guid"   : "324593cfd30cc17479f0f279def9f708",
+        "name"   : "BLACK",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    },
+    {
+        "tags" : [
+            "白色"
+        ],
+        "source" : "",
+        "guid"   : "94e50c13850171e43ad0b8243cb881a2",
+        "name"   : "WHITE",
+        "tip"    : "",
+        "description" : "",
+        "visable"     : true,
+        "assetType"   : "",
+        "index"       : 0,
+        "imagePath"   : ""
+    }
+]
